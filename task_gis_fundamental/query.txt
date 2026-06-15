@@ -1,0 +1,24 @@
+[out:json][timeout:180];
+
+{{geocodeArea:"Jakarta Selatan"}}->.searchArea;
+
+(
+  // 1. Cafe & Coffee Shop
+  node["amenity"="cafe"](area.searchArea);
+
+  // 2. Halte Bus Transjakarta
+  // ✅ Halte Transjakarta — di-filter by area (akurat)
+  node["network"="Transjakarta"](area.searchArea);
+  node["operator"="Transjakarta"](area.searchArea);
+  node["amenity"="bus_stop"]["network"="Transjakarta"](area.searchArea);
+
+  // ✅ Koridor/Rute — ambil way yang secara fisik melewati Jakarta Selatan
+  // Pakai way bukan relation, karena relation = full rute lintas wilayah
+  //way["route"="bus"]["operator"="Transjakarta"](area.searchArea);
+  
+  way["highway"~"primary|secondary|tertiary"](area.searchArea);
+);
+
+out body;
+>;
+out skel qt;

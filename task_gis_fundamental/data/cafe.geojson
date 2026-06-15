@@ -1,0 +1,5410 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-14T12:38:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912469553",
+        "amenity": "cafe",
+        "name": "Cafe Al Tahrir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8325505,
+          -6.2205601
+        ]
+      },
+      "id": "node/1912469553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912484629",
+        "amenity": "cafe",
+        "name": "Daily Bread Bakery and Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8345492,
+          -6.2180374
+        ]
+      },
+      "id": "node/1912484629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912484635",
+        "amenity": "cafe",
+        "name": "Kopi Luwak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8352645,
+          -6.2182454
+        ]
+      },
+      "id": "node/1912484635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912484639",
+        "addr:city": "South Jakarta",
+        "addr:province": "DKI Jakarta",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Pandav Coffee;pandav coffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8346496,
+          -6.2182606
+        ]
+      },
+      "id": "node/1912484639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912484641",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8349406,
+          -6.2178663
+        ]
+      },
+      "id": "node/1912484641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2689408705",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "atm": "yes",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "id:Circle K",
+        "currency:IDR": "yes",
+        "internet_access": "wlan",
+        "name": "Circle K",
+        "name:en": "Circle K",
+        "name:ja": "サークルK",
+        "opening_hours": "24/7",
+        "owner": "PT. Circleka Indonesia Utama",
+        "payment:cash": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8403006,
+          -6.2771981
+        ]
+      },
+      "id": "node/2689408705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2689409001",
+        "amenity": "cafe",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "internet_access": "yes",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8393199,
+          -6.2792824
+        ]
+      },
+      "id": "node/2689409001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2689425295",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "16",
+        "addr:postcode": "12560",
+        "addr:street": "Jl. Ampera Raya, Cilandak Tim., Ps. Minggu",
+        "amenity": "cafe",
+        "name": "Rollingstonescafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8201803,
+          -6.276945
+        ]
+      },
+      "id": "node/2689425295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2695698338",
+        "amenity": "cafe",
+        "name": "Anomali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8204941,
+          -6.2652328
+        ]
+      },
+      "id": "node/2695698338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2700931705",
+        "amenity": "cafe",
+        "cuisine": "Acehnese",
+        "name": "Jambo Kupi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8401469,
+          -6.2980637
+        ]
+      },
+      "id": "node/2700931705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2703703612",
+        "addr:city": "East Tebet",
+        "addr:postcode": "12820",
+        "addr:street": "KH Abdul Syafi'ie",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "The Cake Storage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8574812,
+          -6.2258157
+        ]
+      },
+      "id": "node/2703703612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3055517525",
+        "amenity": "cafe",
+        "name": "Cafe De Hooi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7809773,
+          -6.2845224
+        ]
+      },
+      "id": "node/3055517525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3069725797",
+        "amenity": "cafe",
+        "name": "Kopi Oey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8308244,
+          -6.2542917
+        ]
+      },
+      "id": "node/3069725797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3069732906",
+        "amenity": "cafe",
+        "check_date": "2022-10-01",
+        "cuisine": "Aceh",
+        "name": "Aceh Jame Kupi",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.842095,
+          -6.2533985
+        ]
+      },
+      "id": "node/3069732906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3173637703",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7883042,
+          -6.2456333
+        ]
+      },
+      "id": "node/3173637703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3180186207",
+        "amenity": "cafe",
+        "name": "Quintino's Djava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7891995,
+          -6.2588589
+        ]
+      },
+      "id": "node/3180186207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3180205299",
+        "amenity": "cafe",
+        "name": "Quintino's Djava"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7893188,
+          -6.2594462
+        ]
+      },
+      "id": "node/3180205299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181086678",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Warnet Ichiban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7912139,
+          -6.2520357
+        ]
+      },
+      "id": "node/3181086678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3447790124",
+        "amenity": "cafe",
+        "name": "Anomali Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8154346,
+          -6.2673611
+        ]
+      },
+      "id": "node/3447790124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742367709",
+        "amenity": "cafe",
+        "name": "Titik Temu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8093073,
+          -6.2272833
+        ]
+      },
+      "id": "node/3742367709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3886056157",
+        "addr:street": "Jalan Cipete Raya",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Toodz House - Cipete",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.801822,
+          -6.277919
+        ]
+      },
+      "id": "node/3886056157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3910792919",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "No.80",
+        "addr:postcode": "12190",
+        "addr:street": "Jl. Senopati Raya",
+        "amenity": "cafe",
+        "name": "Cacaoté"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8110623,
+          -6.2324674
+        ]
+      },
+      "id": "node/3910792919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4148233914",
+        "addr:city": "Tebet, South Jakarta",
+        "addr:housenumber": "No.53D",
+        "addr:postcode": "12810",
+        "addr:street": "Jalan Tebet Raya",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "description": "a lot of superhero picture here, you should take a photo!!",
+        "internet_access": "yes",
+        "name": "Comic Cafe",
+        "opening_hours": "10:00 - 24:00",
+        "smoking": "isolated",
+        "source": "HOT_InAWARESurvey_2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8550641,
+          -6.2283462
+        ]
+      },
+      "id": "node/4148233914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235105999",
+        "addr:city": "Senayan, South Jakarta",
+        "addr:housenumber": "No.19",
+        "addr:postcode": "12190",
+        "addr:street": "Jalan Senopati",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Anomali Coffee Senopati"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8081821,
+          -6.2307194
+        ]
+      },
+      "id": "node/4235105999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4240751284",
+        "addr:city": "Kebayoran Baru, South Jakarta",
+        "addr:housenumber": "No. 28,",
+        "addr:postcode": "12150",
+        "addr:street": "Jalan Raya Taman Kemang 2",
+        "amenity": "cafe",
+        "name": "Beer Brother Kemang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8102532,
+          -6.2570259
+        ]
+      },
+      "id": "node/4240751284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4240755872",
+        "addr:city": "Kebayoran Baru, Gandaria Utara, South Jakarta",
+        "addr:housenumber": "No. 45",
+        "addr:postcode": "12140",
+        "addr:street": "Jalan Radio Dalam Raya",
+        "amenity": "cafe",
+        "name": "Beer Garden Radio Dalam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7917067,
+          -6.2495071
+        ]
+      },
+      "id": "node/4240755872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4241008615",
+        "addr:city": "Senayan, South Jakarta",
+        "addr:housenumber": "No.52",
+        "addr:postcode": "12190",
+        "addr:street": "Jalan Senopati",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "brand:wikipedia": "en:Caribou Coffee",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8040777,
+          -6.2302604
+        ]
+      },
+      "id": "node/4241008615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4241116099",
+        "addr:city": "Setiabudi, South Jakarta",
+        "addr:housenumber": "Kav X2/1",
+        "addr:postcode": "12950",
+        "addr:street": "Jalan Hajjah R. Rasuna Said",
+        "amenity": "cafe",
+        "name": "Crematology Coffee Roasters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8338831,
+          -6.2288012
+        ]
+      },
+      "id": "node/4241116099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4242314139",
+        "addr:city": "Tebet, South Jakarta",
+        "addr:housenumber": "No.2A, RT.9/RW.1",
+        "addr:postcode": "12810",
+        "addr:street": "l. Tebet Utara Dalam",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "description": "western food and Indonesian food provide here",
+        "name": "Eat Happens Tebet",
+        "opening_hours": "16:00 - 23:00",
+        "smoking": "separated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85525,
+          -6.2281863
+        ]
+      },
+      "id": "node/4242314139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4242477989",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8211637,
+          -6.2117344
+        ]
+      },
+      "id": "node/4242477989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4244097488",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "11",
+        "addr:postcode": "12110",
+        "addr:street": "Jalan Raden Patah, Kebayoran Baru, Selong, Kby. Baru,",
+        "amenity": "cafe",
+        "name": "Roti Bakar Eddy Blok M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7997965,
+          -6.2364013
+        ]
+      },
+      "id": "node/4244097488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4245714351",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "10",
+        "addr:postcode": "12550",
+        "addr:street": "Kemang Raya",
+        "amenity": "cafe",
+        "name": "Shisha Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8148066,
+          -6.2569063
+        ]
+      },
+      "id": "node/4245714351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255939861",
+        "addr:city": "South Jakarta",
+        "addr:postcode": "12190",
+        "addr:street": "Jalan Senopati",
+        "amenity": "cafe",
+        "name": "Junkyard Cafe & Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8074979,
+          -6.2303606
+        ]
+      },
+      "id": "node/4255939861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255942211",
+        "addr:city": "South Jakarta",
+        "addr:postcode": "12190",
+        "addr:street": "Jl. Senopati No.16",
+        "amenity": "cafe",
+        "name": "Pao Pao Liquor Bar & Dimsum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8042071,
+          -6.2296026
+        ]
+      },
+      "id": "node/4255942211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255945684",
+        "addr:city": "South Jakarta",
+        "addr:postcode": "12190",
+        "addr:street": "Jalan Senopati",
+        "amenity": "cafe",
+        "name": "The Cubbyhole Canteen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8091969,
+          -6.231402
+        ]
+      },
+      "id": "node/4255945684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255945738",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "No.92",
+        "addr:postcode": "12190",
+        "addr:street": "Jalan Senopati",
+        "amenity": "cafe",
+        "name": "Kingsman - Hemingway Speakeasy Lounge & Cigar Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8117494,
+          -6.2329679
+        ]
+      },
+      "id": "node/4255945738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255953399",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "No.6",
+        "addr:postcode": "12190",
+        "addr:street": "Jl. Suryo",
+        "amenity": "cafe",
+        "name": "Miel Ice Cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8123599,
+          -6.2337635
+        ]
+      },
+      "id": "node/4255953399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4373146458",
+        "addr:city": "Kemang, South Jakarta",
+        "addr:postcode": "12150",
+        "addr:street": "Kemang Village Lantai 3 – A1",
+        "amenity": "cafe",
+        "brand": "Maxx Coffee",
+        "brand:wikidata": "Q124651563",
+        "cuisine": "coffee_shop",
+        "name": "Maxx Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8125358,
+          -6.2615974
+        ]
+      },
+      "id": "node/4373146458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4443581213",
+        "amenity": "cafe",
+        "name": "Chillowd (warung kopi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.818914,
+          -6.286167
+        ]
+      },
+      "id": "node/4443581213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4844991028",
+        "amenity": "cafe",
+        "name": "Mezza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8369075,
+          -6.2191613
+        ]
+      },
+      "id": "node/4844991028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5169309863",
+        "amenity": "cafe",
+        "cuisine": "acehnese",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Kupi Aceh 88",
+        "outdoor_seating": "yes",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8408791,
+          -6.2964042
+        ]
+      },
+      "id": "node/5169309863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5230490122",
+        "addr:street": "Jl. Anuraga",
+        "amenity": "cafe",
+        "name": "Warkop Kabita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7932884,
+          -6.295109
+        ]
+      },
+      "id": "node/5230490122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5245366307",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "56",
+        "addr:postcode": "12130",
+        "addr:street": "Jalan Barito II",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "no",
+        "smoking": "isolated",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7942813,
+          -6.246386
+        ]
+      },
+      "id": "node/5245366307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5263195739",
+        "addr:street": "Jalan Radio Dalam",
+        "amenity": "cafe",
+        "brand": "The Coffee Bean & Tea Leaf",
+        "brand:wikidata": "Q1141384",
+        "brand:wikipedia": "en:The Coffee Bean & Tea Leaf",
+        "cuisine": "coffee_shop",
+        "name": "The Coffee Bean & Tea Leaf",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7882637,
+          -6.2626982
+        ]
+      },
+      "id": "node/5263195739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5263323090",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Anomali Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7842439,
+          -6.2627432
+        ]
+      },
+      "id": "node/5263323090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5372140627",
+        "addr:city": "DKI Jakarta",
+        "addr:housenumber": "Kantor Taman Unit A7",
+        "addr:postcode": "12950",
+        "addr:street": "Dr Ide Anak Agung Gde Agung",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;bakery",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Delico",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8277291,
+          -6.2311203
+        ]
+      },
+      "id": "node/5372140627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5550547389",
+        "amenity": "cafe",
+        "cuisine": "coffee",
+        "internet_access": "yes",
+        "name": "Chief",
+        "outdoor_seating": "no",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.808936,
+          -6.2380914
+        ]
+      },
+      "id": "node/5550547389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5550549897",
+        "amenity": "cafe",
+        "cuisine": "coffee",
+        "internet_access": "yes",
+        "name": "Doppio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8093012,
+          -6.2388714
+        ]
+      },
+      "id": "node/5550549897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5802951454",
+        "amenity": "cafe",
+        "name": "Pempek Pak Raden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7951855,
+          -6.2894337
+        ]
+      },
+      "id": "node/5802951454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890743785",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Big Ben Kopi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8518906,
+          -6.2384245
+        ]
+      },
+      "id": "node/5890743785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5892880585",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Dulitas coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.845272,
+          -6.2405983
+        ]
+      },
+      "id": "node/5892880585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5892912586",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Coffité"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8464575,
+          -6.2346666
+        ]
+      },
+      "id": "node/5892912586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6119150790",
+        "amenity": "cafe",
+        "cuisine": "thai",
+        "name": "Jing Jing",
+        "payment:cash": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8616082,
+          -6.2513981
+        ]
+      },
+      "id": "node/6119150790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6207205754",
+        "addr:city": "Jakarta",
+        "addr:housenumber": "123",
+        "addr:postcode": "12440",
+        "addr:street": "abc",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Tess"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8238076,
+          -6.2546318
+        ]
+      },
+      "id": "node/6207205754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6239515693",
+        "amenity": "cafe",
+        "name": "People’s"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8192883,
+          -6.2149808
+        ]
+      },
+      "id": "node/6239515693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6239515786",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8198501,
+          -6.2143545
+        ]
+      },
+      "id": "node/6239515786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6239570889",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8322419,
+          -6.2262092
+        ]
+      },
+      "id": "node/6239570889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6239576388",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Th 06:30-22:30; Fr 06:30-23:00; Sa 07:00-23:00; Su 08:00-22:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8256635,
+          -6.2278596
+        ]
+      },
+      "id": "node/6239576388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6249711364",
+        "addr:city": "DKI Jakarta",
+        "addr:country": "ID",
+        "addr:housenumber": "188",
+        "addr:place": "tebet",
+        "addr:postcode": "12870",
+        "addr:street": "Jalan Dokter Saharjo",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Sudut Sedjenak - Tebet",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+622122833282",
+        "website": "https://g.page/sudut-tebet/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.846999,
+          -6.2227388
+        ]
+      },
+      "id": "node/6249711364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6249775446",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 06:00-21:00; Sa-Su 07:00-21:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8505391,
+          -6.2102133
+        ]
+      },
+      "id": "node/6249775446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6249961585",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8447702,
+          -6.2331815
+        ]
+      },
+      "id": "node/6249961585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6259747296",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8197066,
+          -6.2282039
+        ]
+      },
+      "id": "node/6259747296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6259747588",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8234813,
+          -6.2337177
+        ]
+      },
+      "id": "node/6259747588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6259748688",
+        "addr:housename": "favehotel",
+        "amenity": "cafe",
+        "bar": "yes",
+        "level": "0",
+        "name": "Lime Café & Bar",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8195651,
+          -6.2272552
+        ]
+      },
+      "id": "node/6259748688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6276662120",
+        "addr:city": "DKI Jakarta",
+        "addr:housenumber": "216",
+        "addr:postcode": "12870",
+        "addr:street": "Jalan Doktor Saharjo",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Studio Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8469856,
+          -6.2228247
+        ]
+      },
+      "id": "node/6276662120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6281942587",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7973776,
+          -6.2765304
+        ]
+      },
+      "id": "node/6281942587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6281993091",
+        "amenity": "cafe",
+        "name": "Upnormal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7975124,
+          -6.272973
+        ]
+      },
+      "id": "node/6281993091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6385768085",
+        "amenity": "cafe",
+        "name": "Duwe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8220298,
+          -6.2229487
+        ]
+      },
+      "id": "node/6385768085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6389027548",
+        "addr:floor": "G",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "check_date": "2023-10-13",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8225877,
+          -6.2240888
+        ]
+      },
+      "id": "node/6389027548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6389819993",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8295132,
+          -6.2249559
+        ]
+      },
+      "id": "node/6389819993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6393627385",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8282387,
+          -6.2251203
+        ]
+      },
+      "id": "node/6393627385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6395072085",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.853132,
+          -6.2293902
+        ]
+      },
+      "id": "node/6395072085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6397574186",
+        "amenity": "cafe",
+        "name": "The People's Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8293249,
+          -6.2248797
+        ]
+      },
+      "id": "node/6397574186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6397583686",
+        "amenity": "cafe",
+        "name": "Colony"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8559431,
+          -6.2285616
+        ]
+      },
+      "id": "node/6397583686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6400014585",
+        "addr:housenumber": "153",
+        "addr:street": "Jalan Tebet Timur Dalam Raya",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "AUTOKOFFIE",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8543759,
+          -6.2405908
+        ]
+      },
+      "id": "node/6400014585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6583340355",
+        "amenity": "cafe",
+        "name": "Bright Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.852385,
+          -6.2423069
+        ]
+      },
+      "id": "node/6583340355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6625561385",
+        "amenity": "cafe",
+        "name": "Bakso Mantap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7937512,
+          -6.3058402
+        ]
+      },
+      "id": "node/6625561385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6687903493",
+        "amenity": "cafe",
+        "cuisine": "indonesian",
+        "name": "Pison",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8118782,
+          -6.233564
+        ]
+      },
+      "id": "node/6687903493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6718719197",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Chatime",
+        "brand:en": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "brand:wikipedia": "en:Chatime",
+        "brand:zh": "日出茶太",
+        "cuisine": "bubble_tea",
+        "level": "1",
+        "name": "Chatime",
+        "name:en": "Chatime",
+        "name:zh": "日出茶太",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:coins": "yes",
+        "payment:gopay_id": "yes",
+        "payment:linkaja": "yes",
+        "payment:notes": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7850557,
+          -6.2659903
+        ]
+      },
+      "id": "node/6718719197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6718719209",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Quickly",
+        "brand:en": "Quickly",
+        "brand:wikidata": "Q3771463",
+        "brand:wikipedia": "en:Quickly",
+        "brand:zh": "快可立",
+        "cuisine": "bubble_tea",
+        "level": "1",
+        "name": "Quickly",
+        "name:en": "Quickly",
+        "name:zh": "快可立",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7846742,
+          -6.2662802
+        ]
+      },
+      "id": "node/6718719209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6718719222",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "brand": "The Coffee Bean & Tea Leaf",
+        "brand:wikidata": "Q1141384",
+        "brand:wikipedia": "en:The Coffee Bean & Tea Leaf",
+        "cuisine": "coffee_shop",
+        "level": "1",
+        "name": "The Coffee Bean & Tea Leaf",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:coins": "yes",
+        "payment:dana": "yes",
+        "payment:notes": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7847121,
+          -6.2661234
+        ]
+      },
+      "id": "node/6718719222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6718719233",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:coins": "yes",
+        "payment:ep_flazz": "yes",
+        "payment:gopay_id": "yes",
+        "payment:notes": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7842117,
+          -6.2647977
+        ]
+      },
+      "id": "node/6718719233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6788803387",
+        "amenity": "cafe",
+        "name": "Maxx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.824568,
+          -6.2343558
+        ]
+      },
+      "id": "node/6788803387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6881303087",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.821062,
+          -6.2255234
+        ]
+      },
+      "id": "node/6881303087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6881382189",
+        "amenity": "cafe",
+        "name": "Caffe Bene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8262623,
+          -6.227582
+        ]
+      },
+      "id": "node/6881382189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6881778287",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Caffe Bene",
+        "opening_hours": "Mo-Fr 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.827873,
+          -6.2292811
+        ]
+      },
+      "id": "node/6881778287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6882132586",
+        "amenity": "cafe",
+        "name": "Chaiholics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8272123,
+          -6.2272507
+        ]
+      },
+      "id": "node/6882132586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6883918485",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8254497,
+          -6.224475
+        ]
+      },
+      "id": "node/6883918485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6887398585",
+        "amenity": "cafe",
+        "name": "Morale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8272022,
+          -6.2312121
+        ]
+      },
+      "id": "node/6887398585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6887400285",
+        "amenity": "cafe",
+        "name": "Disdik Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8264512,
+          -6.2356148
+        ]
+      },
+      "id": "node/6887400285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6891421787",
+        "amenity": "cafe",
+        "name": "EMJI Coffee Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8278127,
+          -6.2282795
+        ]
+      },
+      "id": "node/6891421787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6894278085",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8217989,
+          -6.2337461
+        ]
+      },
+      "id": "node/6894278085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6894785889",
+        "amenity": "cafe",
+        "name": "Angel-in-us Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.822692,
+          -6.2245702
+        ]
+      },
+      "id": "node/6894785889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6894785890",
+        "amenity": "cafe",
+        "name": "Toebox Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8232307,
+          -6.2256455
+        ]
+      },
+      "id": "node/6894785890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6894846985",
+        "amenity": "cafe",
+        "name": "Dirty Milk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8243213,
+          -6.2254624
+        ]
+      },
+      "id": "node/6894846985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6898406989",
+        "amenity": "cafe",
+        "name": "The People's Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8262326,
+          -6.226851
+        ]
+      },
+      "id": "node/6898406989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6901370985",
+        "amenity": "cafe",
+        "name": "The Coffee Bean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8296328,
+          -6.2249546
+        ]
+      },
+      "id": "node/6901370985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6908409986",
+        "amenity": "cafe",
+        "name": "Koppi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8254954,
+          -6.2275325
+        ]
+      },
+      "id": "node/6908409986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6908586485",
+        "amenity": "cafe",
+        "name": "Meanwhile Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8231133,
+          -6.2290373
+        ]
+      },
+      "id": "node/6908586485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910823886",
+        "amenity": "cafe",
+        "name": "HeyChago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8253754,
+          -6.2278654
+        ]
+      },
+      "id": "node/6910823886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910823890",
+        "amenity": "cafe",
+        "name": "Kopi Satoro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8197637,
+          -6.2183412
+        ]
+      },
+      "id": "node/6910823890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910823985",
+        "amenity": "cafe",
+        "name": "Kopi Kuranglebih"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8253427,
+          -6.2278429
+        ]
+      },
+      "id": "node/6910823985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6910823987",
+        "amenity": "cafe",
+        "name": "Warung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8214768,
+          -6.2226178
+        ]
+      },
+      "id": "node/6910823987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6912887690",
+        "amenity": "cafe",
+        "name": "Rejuve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8256079,
+          -6.2276708
+        ]
+      },
+      "id": "node/6912887690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6923955554",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7839466,
+          -6.2667007
+        ]
+      },
+      "id": "node/6923955554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6928892986",
+        "amenity": "cafe",
+        "name": "Bakso Benin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.823358,
+          -6.2256425
+        ]
+      },
+      "id": "node/6928892986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6930026885",
+        "addr:housenumber": "14",
+        "addr:postcode": "12430",
+        "addr:street": "Jalan Cilandak Tengah Raya",
+        "amenity": "cafe",
+        "name": "Three Folks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.801672,
+          -6.2899011
+        ]
+      },
+      "id": "node/6930026885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6936087486",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8162818,
+          -6.2169046
+        ]
+      },
+      "id": "node/6936087486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6936088789",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Starbucks",
+        "name:en": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8193326,
+          -6.2213856
+        ]
+      },
+      "id": "node/6936088789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6936088885",
+        "amenity": "cafe",
+        "name": "Mana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.825545,
+          -6.2276061
+        ]
+      },
+      "id": "node/6936088885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6948423785",
+        "amenity": "cafe",
+        "name": "Kopitory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8213908,
+          -6.221777
+        ]
+      },
+      "id": "node/6948423785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6948478885",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Mood Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7960569,
+          -6.2425898
+        ]
+      },
+      "id": "node/6948478885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6951184892",
+        "amenity": "cafe",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "name:en": "Kopi Kenangan",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8328977,
+          -6.2274953
+        ]
+      },
+      "id": "node/6951184892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6951190085",
+        "amenity": "cafe",
+        "name": "Cuppa Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8229375,
+          -6.2334055
+        ]
+      },
+      "id": "node/6951190085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6953818985",
+        "amenity": "cafe",
+        "name": "D Journal Coffee Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8294029,
+          -6.2249159
+        ]
+      },
+      "id": "node/6953818985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6954192787",
+        "amenity": "cafe",
+        "name": "D Cafe Hana Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.825451,
+          -6.2246156
+        ]
+      },
+      "id": "node/6954192787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6954210985",
+        "amenity": "cafe",
+        "name": "Duwe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8214436,
+          -6.2226172
+        ]
+      },
+      "id": "node/6954210985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6956379285",
+        "amenity": "cafe",
+        "contact:facebook": "https://facebook.com/tanoniha-coffee",
+        "name": "Tanoniha Coffee Shelter",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 10:00-22:00; Su closed",
+        "outdoor_seating": "yes",
+        "phone": "+62 812-8830-371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8215947,
+          -6.230363
+        ]
+      },
+      "id": "node/6956379285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7065438285",
+        "amenity": "cafe",
+        "name": "Oh La La Cafe",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8453665,
+          -6.2235393
+        ]
+      },
+      "id": "node/7065438285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7083910516",
+        "addr:city": "DKI Jakarta",
+        "addr:housenumber": "6",
+        "addr:postcode": "12120",
+        "addr:street": "Jalan Hang Jebat IX",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Cecemuwe Cafe & Space",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+6281283388128",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7933692,
+          -6.2360907
+        ]
+      },
+      "id": "node/7083910516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7099094186",
+        "amenity": "cafe",
+        "name": "Tea Addict"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.802445,
+          -6.2479284
+        ]
+      },
+      "id": "node/7099094186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7109099488",
+        "addr:street": "Office 8",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Jasons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8056199,
+          -6.2295054
+        ]
+      },
+      "id": "node/7109099488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178451816",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Lokal",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7846936,
+          -6.2651006
+        ]
+      },
+      "id": "node/7178451816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178451818",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Hop Hop",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:cashbac": "yes",
+        "payment:coins": "yes",
+        "payment:dana": "yes",
+        "payment:dana:gpn_qris": "yes",
+        "payment:gopay_id": "yes",
+        "payment:gpn_qris": "yes",
+        "payment:linkaja": "yes",
+        "payment:notes": "yes",
+        "payment:ovo": "yes",
+        "payment:sakuku": "yes",
+        "payment:sakuku:gpn_qris": "yes",
+        "payment:shopeepay": "yes",
+        "payment:shopeepay:gpn_qris": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7843295,
+          -6.2660907
+        ]
+      },
+      "id": "node/7178451818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7199182446",
+        "addr:housename": "Plaza Festival",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Kiri Desu",
+        "payment:coins": "yes",
+        "payment:dana": "yes",
+        "payment:dana:gpn_qris": "yes",
+        "payment:gopay_id": "yes",
+        "payment:gopay_id:gpn_qris": "yes",
+        "payment:gpn_qris": "yes",
+        "payment:notes": "yes",
+        "payment:ovo": "yes",
+        "payment:samsung_pay": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8333089,
+          -6.2211326
+        ]
+      },
+      "id": "node/7199182446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7199182448",
+        "addr:housename": "Plaza Festival",
+        "addr:street": "Jalan Hajjah R. Rasuna Said",
+        "amenity": "cafe",
+        "branch": "Plaza Festival",
+        "delivery": "yes",
+        "level": "0",
+        "name": "Fore Coffee",
+        "payment:coins": "yes",
+        "payment:dana": "yes",
+        "payment:gopay_id": "yes",
+        "payment:gpn_debit": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:mastercard_debit": "yes",
+        "payment:notes": "yes",
+        "payment:ovo": "yes",
+        "payment:samsung_pay": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8335048,
+          -6.2214736
+        ]
+      },
+      "id": "node/7199182448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7199182450",
+        "addr:housename": "Plaza Festival",
+        "addr:street": "Jalan Hajjah R. Rasuna Said",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Xi Bo Ba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.832938,
+          -6.2204066
+        ]
+      },
+      "id": "node/7199182450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7333022683",
+        "amenity": "cafe",
+        "brand": "Ya Kun Kaya Toast",
+        "brand:wikidata": "Q8046237",
+        "brand:wikipedia": "en:Ya Kun Kaya Toast",
+        "cuisine": "coffee_shop",
+        "name": "Ya Kun Kaya Toast",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7841325,
+          -6.2666493
+        ]
+      },
+      "id": "node/7333022683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7608528796",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.787701,
+          -6.2460356
+        ]
+      },
+      "id": "node/7608528796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7709217810",
+        "addr:street": "Jalan Doktor Ide Anak Agung Gde Agung",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Fore Coffee - COHIVE 101",
+        "phone": "+6287772793873",
+        "website": "https://www.fore.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8252922,
+          -6.2263677
+        ]
+      },
+      "id": "node/7709217810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7719171417",
+        "addr:city": "DKI Jakarta",
+        "addr:housenumber": "No.7, RT.5/RW.4,",
+        "addr:postcode": "12930",
+        "addr:street": "l. Gatot Subroto No.7, RT.5/RW.4, Karet Semanggi, Kecamatan Setiabudi, Kota Jakarta Selatan,",
+        "amenity": "cafe",
+        "cuisine": "middle_eastern;cafe;Restaurant",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Shisha Cafe Semanggi",
+        "opening_hours": "Mo-Su 10:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8152486,
+          -6.2217975
+        ]
+      },
+      "id": "node/7719171417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7719225143",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "No.17, RT.2/RW.1",
+        "addr:postcode": "12430",
+        "addr:street": "Town Square, Jl. TB Simatupang No.17, RT.2/RW.1, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+        "amenity": "cafe",
+        "cuisine": "middle_eastern;lebanese;arabic",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Shisha Cafe Citos",
+        "opening_hours": "Mo-Su 10:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8003556,
+          -6.2917359
+        ]
+      },
+      "id": "node/7719225143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7853153475",
+        "addr:city": "jakarta Selatan",
+        "addr:housenumber": "KAV 03",
+        "addr:postcode": "12950",
+        "addr:street": "Jalan Hajjah R. Rasuna Said",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;indonesian;snack",
+        "internet_access": "no",
+        "name": "Kakatuwa Cofee & Drinks",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8323775,
+          -6.2331642
+        ]
+      },
+      "id": "node/7853153475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8230007986",
+        "addr:city": "South Jakarta",
+        "addr:postcode": "12140",
+        "addr:street": "Jalan Radio Dalam",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "image": "https://www.google.com/maps/uv?pb=!1s0x2e69f1695d6b919d%3A0x948c25a97c40d21a!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOTtoW9QOoYhbMa7Baw19vmkFvfd_zFAGc4iMSQ%3Dw266-h200-k-no!5sKOPI%20ACEH%20KARIM%20-%20Penelusuran%20Google!15sCgIgAQ",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Karim",
+        "name": "KOPI ACEH KARIM",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+6281280393878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7911084,
+          -6.2523182
+        ]
+      },
+      "id": "node/8230007986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8647824819",
+        "addr:city": "DKI Jakarta",
+        "addr:street": "Jalan Haji Saikin",
+        "amenity": "cafe",
+        "cuisine": "coffee;coffee_shop",
+        "name": "Meraki",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7693035,
+          -6.284169
+        ]
+      },
+      "id": "node/8647824819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8739629404",
+        "addr:city": "DKI Jakarta",
+        "addr:street": "Jalan Seha II",
+        "amenity": "cafe",
+        "cuisine": "coffee;coffee_shop",
+        "name": "Anamcara Coffee",
+        "outdoor_seating": "yes",
+        "website": "https://instagram.com/anamcaracoffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.781852,
+          -6.227511
+        ]
+      },
+      "id": "node/8739629404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9037081024",
+        "amenity": "cafe",
+        "branch": "Inkopar Plaza",
+        "brand": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "brand:wikipedia": "en:Chatime",
+        "cuisine": "bubble_tea",
+        "name": "Chatime",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8339455,
+          -6.3445867
+        ]
+      },
+      "id": "node/9037081024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9227203690",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "41",
+        "addr:postcode": "12980",
+        "addr:street": "Jalan Halimun Raya",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;teahouse;cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Sajiwa Coffee & Tea",
+        "outdoor_seating": "yes",
+        "phone": "+6285159390188",
+        "smoking": "outside",
+        "website": "https://sajiwacoffeetea.business.site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8325878,
+          -6.208207
+        ]
+      },
+      "id": "node/9227203690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9678833691",
+        "amenity": "cafe",
+        "name": "Kopi Kotak - Tebet Barat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8491398,
+          -6.238863
+        ]
+      },
+      "id": "node/9678833691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9679280634",
+        "amenity": "cafe",
+        "name": "Kopi Bajawa Flores - Tebet Timur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8562878,
+          -6.2322751
+        ]
+      },
+      "id": "node/9679280634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9679378519",
+        "amenity": "cafe",
+        "name": "Warunk Upnormal - Tebet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8575323,
+          -6.2258265
+        ]
+      },
+      "id": "node/9679378519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9699624189",
+        "amenity": "cafe",
+        "name": "Kafe Pedjuang!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7736029,
+          -6.2889684
+        ]
+      },
+      "id": "node/9699624189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9700046877",
+        "amenity": "cafe",
+        "branch": "Menara FIF",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7835856,
+          -6.2925014
+        ]
+      },
+      "id": "node/9700046877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9729352902",
+        "amenity": "cafe",
+        "name": "Kopi Nako - Tebet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8524815,
+          -6.2420002
+        ]
+      },
+      "id": "node/9729352902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9729447983",
+        "amenity": "cafe",
+        "name": "Cafe Kitsune - Ashta District 8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8070996,
+          -6.2301298
+        ]
+      },
+      "id": "node/9729447983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9729494829",
+        "amenity": "cafe",
+        "name": "Titik Temu Coffee - Cipete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8076627,
+          -6.278046
+        ]
+      },
+      "id": "node/9729494829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9729498121",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Djournal Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8028953,
+          -6.2443248
+        ]
+      },
+      "id": "node/9729498121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731528601",
+        "amenity": "cafe",
+        "branch": "THB Pondok Indah",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7767511,
+          -6.2772053
+        ]
+      },
+      "id": "node/9731528601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731808768",
+        "amenity": "cafe",
+        "branch": "DT Mampang Business Park",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8282401,
+          -6.2569251
+        ]
+      },
+      "id": "node/9731808768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731816306",
+        "amenity": "cafe",
+        "branch": "Menara Bidakara",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8415977,
+          -6.2416557
+        ]
+      },
+      "id": "node/9731816306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731845715",
+        "amenity": "cafe",
+        "branch": "Oakwood",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8253803,
+          -6.2274898
+        ]
+      },
+      "id": "node/9731845715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9747889977",
+        "amenity": "cafe",
+        "branch": "Capital Place",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8200886,
+          -6.2319742
+        ]
+      },
+      "id": "node/9747889977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748465185",
+        "amenity": "cafe",
+        "branch": "Graha Surveyor",
+        "name": "The Harvest Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8323658,
+          -6.2393958
+        ]
+      },
+      "id": "node/9748465185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748511066",
+        "amenity": "cafe",
+        "branch": "X  Jiwa Toast & Joomba   Kemang 10",
+        "brand": "Janji Jiwa",
+        "brand:wikidata": "Q124030785",
+        "cuisine": "coffee_shop",
+        "name": "Janji Jiwa",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8147315,
+          -6.2572517
+        ]
+      },
+      "id": "node/9748511066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748512421",
+        "amenity": "cafe",
+        "name": "D corne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7983704,
+          -6.2445604
+        ]
+      },
+      "id": "node/9748512421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748574437",
+        "amenity": "cafe",
+        "branch": "Mayapada Kuningan",
+        "name": "Imperial Cakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8317128,
+          -6.2186382
+        ]
+      },
+      "id": "node/9748574437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748590966",
+        "amenity": "cafe",
+        "branch": "Karet Kuningan",
+        "name": "Tahta Coffee Mayapada Hospital Kuningan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8316997,
+          -6.2185338
+        ]
+      },
+      "id": "node/9748590966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9810495226",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8482506,
+          -6.2428896
+        ]
+      },
+      "id": "node/9810495226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9907251993",
+        "amenity": "cafe",
+        "check_date": "2022-07-24",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Warkop Jeruk Purut",
+        "opening_hours": "24/7",
+        "payment:cards": "no",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8158326,
+          -6.2796558
+        ]
+      },
+      "id": "node/9907251993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9924366718",
+        "amenity": "cafe",
+        "name": "Galo Kedai Kopi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7999732,
+          -6.2528005
+        ]
+      },
+      "id": "node/9924366718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9936549071",
+        "amenity": "cafe",
+        "check_date": "2022-08-07",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Jambo Kupi",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8150611,
+          -6.2729394
+        ]
+      },
+      "id": "node/9936549071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10015462362",
+        "amenity": "cafe",
+        "check_date": "2022-09-11",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "LTG by esterakyat",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7943665,
+          -6.2444747
+        ]
+      },
+      "id": "node/10015462362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10035512006",
+        "addr:city": "Jakarta Selatan",
+        "addr:housenumber": "17GH, Rooftop. Arteri Pondok Indah,",
+        "addr:postcode": "12240",
+        "addr:street": "Jalan Sultan Iskandar Muda",
+        "amenity": "cafe",
+        "bar": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Kellon Sundulangit",
+        "name:id": "Kellon Sundulangit - Kedai Rooftop",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:e-wallet": "yes",
+        "payment:qr_code": "yes",
+        "phone": "+6285172341123",
+        "smoking": "separated",
+        "takeaway": "yes",
+        "website": "https://kopikellon.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7819358,
+          -6.2594006
+        ]
+      },
+      "id": "node/10035512006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10053941317",
+        "addr:city": "Jakarta Selatan",
+        "addr:housenumber": "126",
+        "addr:postcode": "12820",
+        "addr:street": "Jalan Tebet Timur Dalam Raya",
+        "amenity": "cafe",
+        "contact:instagram": "selawaktucoffee",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Selawaktu",
+        "level": "1",
+        "name": "Selawaktu Coffee",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+6287777703151",
+        "website": "https://selawaktu.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8571075,
+          -6.2355017
+        ]
+      },
+      "id": "node/10053941317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10101656696",
+        "amenity": "cafe",
+        "brand": "The Coffee Bean & Tea Leaf",
+        "brand:wikidata": "Q1141384",
+        "cuisine": "coffee_shop",
+        "name": "The Coffee Bean & Tea Leaf",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8477353,
+          -6.2429401
+        ]
+      },
+      "id": "node/10101656696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10102658576",
+        "amenity": "cafe",
+        "check_date": "2022-10-15",
+        "name": "Warung Kopi Bang Ari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8473008,
+          -6.2369413
+        ]
+      },
+      "id": "node/10102658576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10138035758",
+        "addr:city": "DKI Jakarta",
+        "addr:postcode": "12560",
+        "addr:street": "Jalan Benda No 46 E",
+        "amenity": "cafe",
+        "name": "Kamari Odd Space"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8157238,
+          -6.2768929
+        ]
+      },
+      "id": "node/10138035758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10143228617",
+        "amenity": "cafe",
+        "name": "Dapoer One Home Stay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.791659,
+          -6.2997363
+        ]
+      },
+      "id": "node/10143228617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10608026872",
+        "amenity": "cafe",
+        "name": "Holmes Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8215086,
+          -6.2214587
+        ]
+      },
+      "id": "node/10608026872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10744718276",
+        "addr:city": "Jakarta Selatan",
+        "addr:housenumber": "22",
+        "addr:postcode": "12940",
+        "addr:street": "Jalan Epicentrum Utama Raya",
+        "amenity": "cafe",
+        "brand": "Mixue",
+        "brand:en": "MIXUEBINGCHENG",
+        "brand:wikidata": "Q107406476",
+        "brand:wikipedia": "zh:蜜雪冰城",
+        "brand:zh": "蜜雪冰城",
+        "cuisine": "ice_cream;bubble_tea",
+        "internet_access": "no",
+        "name": "Mixue",
+        "name:en": "Mixue",
+        "name:zh": "蜜雪冰城",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "081770744155",
+        "takeaway": "yes",
+        "website": "https://en.mxbc.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8331498,
+          -6.2209654
+        ]
+      },
+      "id": "node/10744718276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10744737488",
+        "addr:city": "Jakarta Selatan",
+        "addr:housenumber": "22",
+        "addr:postcode": "12960",
+        "addr:street": "Jalan Hajjah R. Rasuna Said",
+        "amenity": "cafe",
+        "cuisine": "frozen_yogurt",
+        "name": "Sour Sally"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8331008,
+          -6.2215363
+        ]
+      },
+      "id": "node/10744737488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10758109838",
+        "addr:city": "Jakarta Selatan",
+        "addr:postcode": "12820",
+        "addr:street": "tebet raya no 55",
+        "amenity": "cafe",
+        "cuisine": "dessert",
+        "internet_access": "no",
+        "name": "Mixue Tebet",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8550896,
+          -6.2277059
+        ]
+      },
+      "id": "node/10758109838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10831630845",
+        "amenity": "cafe",
+        "brand": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "cuisine": "bubble_tea",
+        "name": "Chatime",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8555506,
+          -6.2423897
+        ]
+      },
+      "id": "node/10831630845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10892560046",
+        "amenity": "cafe",
+        "brand": "Haus!",
+        "brand:wikidata": "Q114824757",
+        "cuisine": "bubble_tea",
+        "name": "Haus!",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8560886,
+          -6.227831
+        ]
+      },
+      "id": "node/10892560046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10936632012",
+        "addr:city": "Petukangan Selatan, DKI Jakarta",
+        "addr:street": "Jalan Sabar Raya",
+        "amenity": "cafe",
+        "cuisine": "tea;drink;bubble_tea",
+        "delivery": "yes",
+        "name": "Teguk",
+        "source": "mapillary;streetlevel imagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7521234,
+          -6.2412739
+        ]
+      },
+      "id": "node/10936632012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10983560218",
+        "addr:city": "Petukangan Selatan, DKI Jakarta",
+        "addr:street": "Jalan Ciledug Raya",
+        "amenity": "cafe",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7531527,
+          -6.2369536
+        ]
+      },
+      "id": "node/10983560218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11040595205",
+        "amenity": "cafe",
+        "name:hi": "Kantin MangkuLuhur City",
+        "opening_hours": "Mo-Su 07:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8150298,
+          -6.2202406
+        ]
+      },
+      "id": "node/11040595205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11226313203",
+        "addr:floor": "GF",
+        "amenity": "cafe",
+        "check_date": "2023-09-29",
+        "level": "0",
+        "name": "Weirdough Bakehouse",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8015431,
+          -6.2536808
+        ]
+      },
+      "id": "node/11226313203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11226455265",
+        "amenity": "cafe",
+        "check_date": "2023-09-29",
+        "food": "yes",
+        "level": "0",
+        "name": "Tator Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8016915,
+          -6.2531017
+        ]
+      },
+      "id": "node/11226455265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11233267027",
+        "amenity": "cafe",
+        "check_date": "2023-10-02",
+        "name": "Layàna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.796022,
+          -6.291304
+        ]
+      },
+      "id": "node/11233267027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11238512934",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Rumangsa",
+        "toilets": "yes",
+        "wheelchair": "designated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8022231,
+          -6.2936507
+        ]
+      },
+      "id": "node/11238512934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11256537900",
+        "amenity": "cafe",
+        "check_date": "2023-10-13",
+        "description": "Take-away coffee",
+        "level": "0",
+        "name": "Kopi Nako",
+        "opening_hours": "10:00-22:00",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8191707,
+          -6.2262951
+        ]
+      },
+      "id": "node/11256537900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11256916505",
+        "addr:city": "South Jakarta",
+        "addr:housenumber": "Kav 52-53",
+        "addr:postcode": "12190",
+        "addr:street": "Jalan Jenderal Sudirman",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "check_date": "2023-10-12",
+        "cuisine": "coffee_shop;indonesian;local",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Tanamera",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "phone": "+6281289019989",
+        "website": "https://tanameracoffee.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8096599,
+          -6.2236254
+        ]
+      },
+      "id": "node/11256916505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11259024726",
+        "amenity": "cafe",
+        "cuisine": "japanese",
+        "name": "Hoshino Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8234868,
+          -6.2239782
+        ]
+      },
+      "id": "node/11259024726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11259647078",
+        "addr:floor": "1",
+        "amenity": "cafe",
+        "check_date": "2023-10-13",
+        "level": "1",
+        "name": "Saturday",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8229499,
+          -6.2244365
+        ]
+      },
+      "id": "node/11259647078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11311423972",
+        "addr:floor": "L",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "no",
+        "branch": "Graha BIP",
+        "brand": "Pick Cup",
+        "check_date": "2023-11-06",
+        "cuisine": "coffee_shop",
+        "delivery:gofood": "yes",
+        "delivery:grabfood": "yes",
+        "diet:halal": "yes",
+        "highchair": "no",
+        "level": "0",
+        "name": "Pick Cup",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:gopay_id": "yes",
+        "payment:gopay_id:gpn_qris": "yes",
+        "payment:gpn_qris": "yes",
+        "smoking": "isolated",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8205197,
+          -6.2294328
+        ]
+      },
+      "id": "node/11311423972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11442866990",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7848996,
+          -6.2938641
+        ]
+      },
+      "id": "node/11442866990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11681193422",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Kisaku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8027268,
+          -6.2443595
+        ]
+      },
+      "id": "node/11681193422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11681193423",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cotti Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8026935,
+          -6.2440832
+        ]
+      },
+      "id": "node/11681193423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11681193424",
+        "amenity": "cafe",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8027039,
+          -6.2438958
+        ]
+      },
+      "id": "node/11681193424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11681193425",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Tomoro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8031879,
+          -6.244482
+        ]
+      },
+      "id": "node/11681193425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11681193426",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "di.bawahtangga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8031191,
+          -6.2445182
+        ]
+      },
+      "id": "node/11681193426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690073513",
+        "amenity": "cafe",
+        "name": "TAMANI KEMANG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8099358,
+          -6.255484
+        ]
+      },
+      "id": "node/11690073513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690097059",
+        "amenity": "cafe",
+        "name": "Tamani WTC 6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8193338,
+          -6.2149107
+        ]
+      },
+      "id": "node/11690097059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690189867",
+        "amenity": "cafe",
+        "name": "TAMANI PONDOK INDAH MALL 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7832393,
+          -6.266318
+        ]
+      },
+      "id": "node/11690189867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690216697",
+        "amenity": "cafe",
+        "name": "TAMANI KOTA KASABLANKA",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8423554,
+          -6.2233267
+        ]
+      },
+      "id": "node/11690216697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11729666854",
+        "amenity": "cafe",
+        "name": "HARRIS Cafe",
+        "website": "https://linktr.ee/TheTubeBarLounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8479191,
+          -6.2228278
+        ]
+      },
+      "id": "node/11729666854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11885698469",
+        "amenity": "cafe",
+        "name": "Toko Kopi TUKU - SPBU bp Lenteng Agung",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8360394,
+          -6.3209292
+        ]
+      },
+      "id": "node/11885698469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993005335",
+        "amenity": "cafe",
+        "name": "Hop Hop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8403298,
+          -6.3061836
+        ]
+      },
+      "id": "node/11993005335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993014454",
+        "amenity": "cafe",
+        "name": "Tomoro Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.840091,
+          -6.3064822
+        ]
+      },
+      "id": "node/11993014454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993018591",
+        "amenity": "cafe",
+        "name": "Fore Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8401313,
+          -6.3063969
+        ]
+      },
+      "id": "node/11993018591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993018696",
+        "amenity": "cafe",
+        "name": "Kopi Restu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8401903,
+          -6.305989
+        ]
+      },
+      "id": "node/11993018696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993026539",
+        "amenity": "cafe",
+        "name": "Puyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8402493,
+          -6.3056171
+        ]
+      },
+      "id": "node/11993026539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993042659",
+        "amenity": "cafe",
+        "name": "The People's Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8403834,
+          -6.3059344
+        ]
+      },
+      "id": "node/11993042659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993044072",
+        "amenity": "cafe",
+        "name": "Susu Mbok Darmi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8407294,
+          -6.3055545
+        ]
+      },
+      "id": "node/11993044072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993050477",
+        "amenity": "cafe",
+        "name": "Shake-Shake in A Tub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8406315,
+          -6.3056864
+        ]
+      },
+      "id": "node/11993050477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993059286",
+        "amenity": "cafe",
+        "name": "Boost Juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8406811,
+          -6.3058637
+        ]
+      },
+      "id": "node/11993059286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993062717",
+        "amenity": "cafe",
+        "name": "Sour Sally"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8401742,
+          -6.3060943
+        ]
+      },
+      "id": "node/11993062717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993062718",
+        "amenity": "cafe",
+        "name": "Tous Les Jours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8402439,
+          -6.3061556
+        ]
+      },
+      "id": "node/11993062718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993065712",
+        "amenity": "cafe",
+        "name": "Djournal Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8401769,
+          -6.3057597
+        ]
+      },
+      "id": "node/11993065712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993080285",
+        "amenity": "cafe",
+        "name": "Social Affair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8402989,
+          -6.3058291
+        ]
+      },
+      "id": "node/11993080285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12109965062",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access:fee": "customers",
+        "name": "Toko Kopi TUKU - Cipete",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8014764,
+          -6.2776487
+        ]
+      },
+      "id": "node/12109965062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110006534",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - SPBU bp Simprug",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7895611,
+          -6.2314175
+        ]
+      },
+      "id": "node/12110006534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110006646",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - Pondok Indah",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7839204,
+          -6.2698408
+        ]
+      },
+      "id": "node/12110006646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110030630",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - Pasar Santa",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8120106,
+          -6.2400964
+        ]
+      },
+      "id": "node/12110030630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110031899",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - SPBU bp Minangkabau",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8438024,
+          -6.2127151
+        ]
+      },
+      "id": "node/12110031899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110033736",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - Kemang",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://tuku.coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8160957,
+          -6.262392
+        ]
+      },
+      "id": "node/12110033736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110042118",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - Blok M",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "website": "https://tuku.coffee/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7997041,
+          -6.2439142
+        ]
+      },
+      "id": "node/12110042118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12118113663",
+        "amenity": "cafe",
+        "description": "cafe and restaurant across Tokopedia Tower and Citadines hotel",
+        "name": "Kopitagram Centang Biru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.819756,
+          -6.2213689
+        ]
+      },
+      "id": "node/12118113663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157326119",
+        "amenity": "cafe",
+        "brand": "KOI",
+        "cuisine": "bubble_tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7931803,
+          -6.2925332
+        ]
+      },
+      "id": "node/12157326119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157326123",
+        "amenity": "cafe",
+        "name": "mamamiel_kitchen",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7894558,
+          -6.2423835
+        ]
+      },
+      "id": "node/12157326123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12206685513",
+        "addr:city": "Jakarta Selatan",
+        "addr:district": "Kebayoran Baru",
+        "addr:housenumber": "68",
+        "addr:postcode": "12150",
+        "addr:province": "DKI Jakarta",
+        "addr:street": "Jalan Pangeran Antasari",
+        "addr:subdistrict": "Cipete Utara",
+        "amenity": "cafe",
+        "branch": "Shell Antasari (Container)",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:app": "yes",
+        "payment:cash": "yes",
+        "shop": "coffee",
+        "takeaway": "only",
+        "website": "https://kopikenangan.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8082843,
+          -6.2653271
+        ]
+      },
+      "id": "node/12206685513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12272210015",
+        "addr:city": "Pancoran, South Jakarta",
+        "addr:neighbourhood": "Rawajati",
+        "addr:postcode": "12760",
+        "addr:street": "Jalan Duren Tiga Timur",
+        "addr:subdistrict": "Pancoran",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;indonesian",
+        "name": "Kedai Abbah Slowbrew Coffee & Tea",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8496929,
+          -6.2542928
+        ]
+      },
+      "id": "node/12272210015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12301057162",
+        "amenity": "cafe",
+        "name": "Deracikan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8021711,
+          -6.2447664
+        ]
+      },
+      "id": "node/12301057162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12382477563",
+        "amenity": "cafe",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7868234,
+          -6.2988845
+        ]
+      },
+      "id": "node/12382477563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12404558614",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Warung168spin",
+        "opening_hours": "24/7",
+        "website": "https://warung168spin.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7701345,
+          -6.272785
+        ]
+      },
+      "id": "node/12404558614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12431618706",
+        "addr:city": "Petukangan Selatan, DKI Jakarta",
+        "addr:postcode": "12270",
+        "addr:province": "Jakarta",
+        "addr:street": "Jalan Kemajuan Raya",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Traffas",
+        "outdoor_seating": "yes",
+        "website": "https://traffas.id"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7544693,
+          -6.2406748
+        ]
+      },
+      "id": "node/12431618706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12506117287",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Kurasu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8042314,
+          -6.2433594
+        ]
+      },
+      "id": "node/12506117287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12506117288",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Bagel Coffee Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8023358,
+          -6.2447597
+        ]
+      },
+      "id": "node/12506117288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12520182971",
+        "addr:city": "DKI Jakarta",
+        "addr:housenumber": "8",
+        "addr:province": "jakarta",
+        "addr:street": "Jalan Gedung Hijau Raya",
+        "addr:unit": "8",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Lugua Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7740904,
+          -6.2733402
+        ]
+      },
+      "id": "node/12520182971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12834025256",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Fore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8186213,
+          -6.2180602
+        ]
+      },
+      "id": "node/12834025256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12834025257",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8184201,
+          -6.2181216
+        ]
+      },
+      "id": "node/12834025257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13038504173",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks Gandaria City",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7830405,
+          -6.243848
+        ]
+      },
+      "id": "node/13038504173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13038504189",
+        "amenity": "cafe",
+        "brand": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "Mixue Kyai Maja",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7904407,
+          -6.2420436
+        ]
+      },
+      "id": "node/13038504189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13162093995",
+        "amenity": "cafe",
+        "diet:halal": "yes",
+        "indoor_seating": "no",
+        "name": "Angkringan TIKUM",
+        "opening_hours": "Mo-Fr 15:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7562353,
+          -6.2720497
+        ]
+      },
+      "id": "node/13162093995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13180084808",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "LBRY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8025404,
+          -6.2453554
+        ]
+      },
+      "id": "node/13180084808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13180084811",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Teazzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8028212,
+          -6.2446028
+        ]
+      },
+      "id": "node/13180084811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13180084812",
+        "amenity": "cafe",
+        "name": "Beanstar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8032325,
+          -6.2447717
+        ]
+      },
+      "id": "node/13180084812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13184109449",
+        "alt_name": "Indomaret Point",
+        "amenity": "cafe",
+        "branch": "Fatmawati Cilandak",
+        "brand": "Point Coffee",
+        "brand:wikidata": "Q124651558",
+        "cuisine": "coffee_shop",
+        "name": "Point Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7948188,
+          -6.2964427
+        ]
+      },
+      "id": "node/13184109449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13188143784",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cofilab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8351719,
+          -6.2159711
+        ]
+      },
+      "id": "node/13188143784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13241120152",
+        "amenity": "cafe",
+        "cuisine": "international",
+        "name": "Way of Evergreen",
+        "opening_hours": "07:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8183587,
+          -6.2194403
+        ]
+      },
+      "id": "node/13241120152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13245699693",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-10-20",
+        "diet:halal": "yes",
+        "indoor_seating": "no",
+        "name": "JAELANSKY Bintaro",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7595513,
+          -6.2594221
+        ]
+      },
+      "id": "node/13245699693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13247890251",
+        "amenity": "cafe",
+        "brand": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "Mixue",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7480283,
+          -6.2362273
+        ]
+      },
+      "id": "node/13247890251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13247890252",
+        "amenity": "cafe",
+        "brand": "Janji Jiwa",
+        "brand:wikidata": "Q124030785",
+        "cuisine": "coffee_shop",
+        "name": "Janji Jiwa",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7481145,
+          -6.2362403
+        ]
+      },
+      "id": "node/13247890252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13277646002",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-11-03",
+        "diet:halal": "yes",
+        "indoor_seating": "no",
+        "name": "Warkop \"AL\"",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.756489,
+          -6.2725849
+        ]
+      },
+      "id": "node/13277646002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13301318143",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "T99"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8021617,
+          -6.2444551
+        ]
+      },
+      "id": "node/13301318143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13301318144",
+        "amenity": "cafe",
+        "name": "Cups"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8021611,
+          -6.2444151
+        ]
+      },
+      "id": "node/13301318144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13301318145",
+        "amenity": "cafe",
+        "name": "Busy Cheesecake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8021592,
+          -6.2443607
+        ]
+      },
+      "id": "node/13301318145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13325774804",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-11-23",
+        "indoor_seating": "no",
+        "name": "Warkop RAFA RENO",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7718395,
+          -6.2384412
+        ]
+      },
+      "id": "node/13325774804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13392418201",
+        "addr:street": "Jalan Cipete Raya",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Jakarta Coffee House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8044317,
+          -6.2780303
+        ]
+      },
+      "id": "node/13392418201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406895327",
+        "amenity": "cafe",
+        "brand": "TOMORO Coffee",
+        "brand:wikidata": "Q126326801",
+        "cuisine": "coffee_shop",
+        "name": "TOMORO Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7994764,
+          -6.27779
+        ]
+      },
+      "id": "node/13406895327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406903857",
+        "alt_name": "Indomaret Point",
+        "amenity": "cafe",
+        "brand": "Point Coffee",
+        "brand:wikidata": "Q124651558",
+        "cuisine": "coffee_shop",
+        "name": "Point Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.798366,
+          -6.2773597
+        ]
+      },
+      "id": "node/13406903857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13432433284",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Gordi hq kopi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8117909,
+          -6.2841314
+        ]
+      },
+      "id": "node/13432433284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13534217951",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Toko Kopi TUKU - Karang Tengah",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "outside",
+        "takeaway": "only",
+        "toilets": "yes",
+        "website": "https://tuku.coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7812669,
+          -6.3110033
+        ]
+      },
+      "id": "node/13534217951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13534266450",
+        "addr:city": "Jakarta Selatan",
+        "addr:district": "Cilandak",
+        "addr:housenumber": "26",
+        "addr:postcode": "12410",
+        "addr:province": "DKI Jakarta",
+        "addr:street": "Jalan Abdul Majid Raya",
+        "addr:subdistrict": "Cipete Selatan",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "name": "Toko Kopi TUKU - Fatmawati (Online Delivery Only)",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "toilets": "yes",
+        "website": "https://tuku.coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8083052,
+          -6.2660875
+        ]
+      },
+      "id": "node/13534266450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13534479901",
+        "amenity": "cafe",
+        "name": "Straits Coffee & Eatery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7892845,
+          -6.2407831
+        ]
+      },
+      "id": "node/13534479901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13626123718",
+        "addr:city": "Jakarta Selatan",
+        "addr:district": "Pasar Minggu",
+        "addr:housenumber": "No.1",
+        "addr:neighbourhood": "RT.2/RW.2",
+        "addr:postcode": "12560",
+        "addr:province": "DKI Jakarta",
+        "addr:street": "Jalan Ampera Raya",
+        "addr:subdistrict": "Cilandak Timur",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "Ampera",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Berkala Coffee",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+6282210108414"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.817439,
+          -6.2897778
+        ]
+      },
+      "id": "node/13626123718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13626129836",
+        "addr:city": "Jakarta Selatan",
+        "addr:district": "Jagakarsa",
+        "addr:housenumber": "No.9",
+        "addr:neighbourhood": "RT.9/RW.7",
+        "addr:postcode": "12610",
+        "addr:province": "DKI Jakarta",
+        "addr:street": "Jalan Jagakarsa",
+        "addr:subdistrict": "Jagakarsa",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "branch": "Jagakarsa",
+        "cuisine": "coffee_shop;local;indonesian;asian",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "WARJON",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+6285215654716",
+        "website": "https://www.instagram.com/warjodki?igsh=NjJ6N2F1bzdzOW54&utm_source=qr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8239159,
+          -6.327389
+        ]
+      },
+      "id": "node/13626129836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13628734301",
+        "addr:housenumber": "8",
+        "addr:postcode": "12540",
+        "addr:street": "Jalan Jati Murni",
+        "amenity": "cafe",
+        "contact:instagram": "playatpoly",
+        "email": "poly.cafoy@gmail.com",
+        "name": "Poly Board Games Cafe",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+6282317929925",
+        "website": "https://linktr.ee/polycafe__",
+        "website:menu": "https://bit.ly/MenuPoly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8292789,
+          -6.2847023
+        ]
+      },
+      "id": "node/13628734301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13714056583",
+        "amenity": "cafe",
+        "name": "kopi tuku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8381474,
+          -6.2842355
+        ]
+      },
+      "id": "node/13714056583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13714056585",
+        "amenity": "cafe",
+        "name": "warkop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8380851,
+          -6.2830903
+        ]
+      },
+      "id": "node/13714056585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13723558923",
+        "addr:city": "Jakarta Selatan",
+        "addr:district": "setiabudi",
+        "addr:housename": "TOMORO COFFEE - Wisma BumiPutera",
+        "addr:housenumber": "75",
+        "addr:postcode": "12910",
+        "addr:province": "DKI jakarta",
+        "addr:street": "Jalan Jenderal Sudirman",
+        "addr:subdistrict": "kuningan",
+        "amenity": "cafe",
+        "name": "TOMORO COFFEE - Wisma BumiPutera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.823311,
+          -6.2074305
+        ]
+      },
+      "id": "node/13723558923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13725350471",
+        "amenity": "cafe",
+        "name": "Warkop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8493145,
+          -6.2242116
+        ]
+      },
+      "id": "node/13725350471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13725350472",
+        "amenity": "cafe",
+        "name": "CAFE UNITE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8486159,
+          -6.2238409
+        ]
+      },
+      "id": "node/13725350472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13726116992",
+        "amenity": "cafe",
+        "cuisine": "bakery",
+        "internet_access": "no",
+        "name": "Global Bakery",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "082118311442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8553209,
+          -6.2222865
+        ]
+      },
+      "id": "node/13726116992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13726791617",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Kopi Kenangan Drive Thrue",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8368863,
+          -6.3209401
+        ]
+      },
+      "id": "node/13726791617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13728042836",
+        "amenity": "cafe",
+        "name": "Janji Jiwa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.836216,
+          -6.3061047
+        ]
+      },
+      "id": "node/13728042836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13811114929",
+        "amenity": "cafe",
+        "branch": "TB Simatupang",
+        "brand": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "cuisine": "bubble_tea",
+        "name": "Chatime",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8472941,
+          -6.3046774
+        ]
+      },
+      "id": "node/13811114929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13856318023",
+        "addr:city": "Jakarta Selatan",
+        "addr:district": "Kec. Mampang Prpt",
+        "addr:housename": "Jalan Mampang Prapatan II No 30",
+        "addr:neighbourhood": "02/04",
+        "addr:postcode": "12790",
+        "addr:province": "DKI Jakarta",
+        "addr:street": "Jalan Mampang Prapatan II",
+        "addr:subdistrict": "Mampang Prpt",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Talu Coffee",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8311355,
+          -6.2432249
+        ]
+      },
+      "id": "node/13856318023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13912504857",
+        "amenity": "cafe",
+        "brand": "Kopi Kenangan",
+        "brand:wikidata": "Q97221992",
+        "cuisine": "coffee_shop",
+        "diet:halal": "only",
+        "name": "Kopi Kenangan",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8244278,
+          -6.2398058
+        ]
+      },
+      "id": "node/13912504857"
+    }
+  ]
+}
