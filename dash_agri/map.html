@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta - WebGIS Agrikultur Sumbawa</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            900: '#064e3b',
+                        },
+                        sky: {
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex-shrink-0 flex items-center">
+                        <span class="font-bold text-xl text-emerald-700">WebGIS Agrikultur <small
+                                class="text-sm font-normal text-gray-500">Sumbawa</small></span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html"
+                        class="text-gray-600 hover:text-emerald-600 px-1 py-2 transition-colors duration-200">Home</a>
+                    <a href="about.html"
+                        class="text-gray-600 hover:text-emerald-600 px-1 py-2 transition-colors duration-200">About</a>
+                    <a href="map.html"
+                        class="text-emerald-600 font-semibold border-b-2 border-emerald-500 px-1 py-2">Map</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-btn"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-emerald-600 hover:bg-emerald-50 focus:outline-none transition-colors duration-200">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-white border-b border-gray-100 shadow-inner" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"
+                    class="text-gray-600 hover:bg-emerald-50 hover:text-emerald-700 block px-3 py-2 rounded-md font-medium">Home</a>
+                <a href="about.html"
+                    class="text-gray-600 hover:bg-emerald-50 hover:text-emerald-700 block px-3 py-2 rounded-md font-medium">About</a>
+                <a href="map.html" class="bg-emerald-50 text-emerald-700 block px-3 py-2 rounded-md font-medium">Map</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="mb-8 border-b border-gray-200 pb-5">
+                <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Peta Tematik Agrikultur
+                </h1>
+                <p class="mt-2 text-lg text-gray-500">
+                    Eksplorasi data spasial secara interaktif. Anda dapat memfilter tampilan berdasarkan layer spesifik.
+                </p>
+            </div>
+
+            <div
+                class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden flex flex-col lg:flex-row">
+
+                <!-- Sidebar Control Panel -->
+                <div
+                    class="w-full lg:w-1/3 bg-gray-50 border-b lg:border-b-0 lg:border-r border-gray-200 p-6 flex flex-col">
+                    <h2 class="text-xl font-bold text-emerald-800 mb-6 flex items-center">
+                        <svg class="w-6 h-6 mr-2 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4">
+                            </path>
+                        </svg>
+                        Kontrol Layer
+                    </h2>
+
+                    <!-- Tag Form Input -->
+                    <form action="#" method="GET" class="mb-8">
+                        <div class="mb-4">
+                            <label for="layer" class="block text-sm font-semibold text-gray-700 mb-2">Pilih Layer
+                                Utama</label>
+                            <div class="relative">
+                                <select id="layer" name="layer"
+                                    class="block w-full pl-3 pr-10 py-3 text-base border-gray-300 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 sm:text-sm rounded-lg shadow-sm bg-white border appearance-none transition-colors">
+                                    <option value="semua">Semua Layer (Default)</option>
+                                    <option value="sawah">Lahan Sawah</option>
+                                    <option value="irigasi">Jaringan Irigasi</option>
+                                    <option value="komoditas">Komoditas Tanaman</option>
+                                </select>
+                                <div
+                                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+                                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button"
+                            class="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 transition-colors">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z">
+                                </path>
+                            </svg>
+                            Terapkan Filter
+                        </button>
+                    </form>
+
+                    <div class="flex-grow">
+                        <h3
+                            class="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4 border-b border-gray-200 pb-2">
+                            Legenda Peta</h3>
+                        <div class="overflow-x-auto">
+                            <!-- Tag Tabel -->
+                            <table class="min-w-full divide-y divide-gray-200 text-sm">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th scope="col" class="px-4 py-2 text-left font-semibold text-gray-700">Simbol
+                                        </th>
+                                        <th scope="col" class="px-4 py-2 text-left font-semibold text-gray-700">Nama
+                                            Layer</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-100">
+                                    <tr>
+                                        <td class="px-4 py-3">
+                                            <div class="w-6 h-6 bg-emerald-400 border border-emerald-600 rounded"></div>
+                                        </td>
+                                        <td class="px-4 py-3 text-gray-600">Sawah Aktif</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-4 py-3">
+                                            <div class="w-6 h-6 bg-yellow-400 border border-yellow-600 rounded"></div>
+                                        </td>
+                                        <td class="px-4 py-3 text-gray-600">Kebun/Tegal</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-4 py-3">
+                                            <div class="w-6 h-2 bg-sky-500 rounded-full"></div>
+                                        </td>
+                                        <td class="px-4 py-3 text-gray-600">Saluran Irigasi</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-4 py-3">
+                                            <div
+                                                class="w-4 h-4 rounded-full bg-purple-500 border-2 border-white shadow">
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-gray-600">Komoditas Hortikultura</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Container -->
+                <div class="w-full lg:w-2/3 bg-gray-200 relative min-h-[500px]">
+                    <!-- Dummy Map Image -->
+                    <iframe
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=117.0%2C-8.9%2C117.8%2C-8.3&amp;layer=mapnik"
+                        class="absolute inset-0 w-full h-full border-0"></iframe>
+
+                    <!-- Overlay Elements for Realism -->
+                    <div
+                        class="absolute top-4 right-4 bg-white/90 backdrop-blur rounded shadow px-3 py-2 text-xs font-medium text-gray-600 border border-gray-200">
+                        Peta Interaktif v1.0
+                    </div>
+
+                    <!-- Zoom Controls Dummy -->
+                    <div
+                        class="absolute bottom-6 right-6 flex flex-col shadow-md rounded-md overflow-hidden border border-gray-200">
+                        <button
+                            class="bg-white hover:bg-gray-50 text-gray-700 p-2 border-b border-gray-200 transition-colors"
+                            title="Perbesar">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                            </svg>
+                        </button>
+                        <button class="bg-white hover:bg-gray-50 text-gray-700 p-2 transition-colors" title="Perkecil">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-emerald-900 mt-auto border-t border-emerald-800">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex justify-center md:justify-start md:order-2 space-x-6">
+                    <p class="text-emerald-100 text-sm">
+                        Proyek Akhir Bootcamp <u>Code the Map, Decode the Future</u>.
+                    </p>
+                </div>
+                <div class="mt-8 md:mt-0 md:order-1">
+                    <p class="text-center md:text-left text-base text-emerald-200">
+                        &copy; 2026 WebGIS Agrikultur. <br class="md:hidden"> <i>Hak Cipta Dilindungi.</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vanilla JS for Mobile Menu Toggle -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang - WebGIS Agrikultur Sumbawa</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            900: '#064e3b',
+                        },
+                        sky: {
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex-shrink-0 flex items-center">
+                        <span class="font-bold text-xl text-emerald-700">WebGIS Agrikultur <small
+                                class="text-sm font-normal text-gray-500">Sumbawa</small></span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html"
+                        class="text-gray-600 hover:text-emerald-600 px-1 py-2 transition-colors duration-200">Home</a>
+                    <a href="about.html"
+                        class="text-emerald-600 font-semibold border-b-2 border-emerald-500 px-1 py-2">About</a>
+                    <a href="map.html"
+                        class="text-gray-600 hover:text-emerald-600 px-1 py-2 transition-colors duration-200">Map</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-btn"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-emerald-600 hover:bg-emerald-50 focus:outline-none transition-colors duration-200">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-white border-b border-gray-100 shadow-inner" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"
+                    class="text-gray-600 hover:bg-emerald-50 hover:text-emerald-700 block px-3 py-2 rounded-md font-medium">Home</a>
+                <a href="about.html"
+                    class="bg-emerald-50 text-emerald-700 block px-3 py-2 rounded-md font-medium">About</a>
+                <a href="map.html"
+                    class="text-gray-600 hover:bg-emerald-50 hover:text-emerald-700 block px-3 py-2 rounded-md font-medium">Map</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow py-12">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+
+            <div class="text-center mb-16">
+                <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Tentang Proyek & Kreator</h1>
+                <p class="mt-4 text-xl text-gray-500">Mengenal lebih dekat <strong>Titanio Yudista</strong>, kreator di balik WebGIS Agrikultur ini.</p>
+                <hr class="w-24 border-emerald-500 border-4 mx-auto mt-6 rounded-full">
+            </div>
+
+            <!-- Pendidikan -->
+            <section
+                class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+                <h2 class="text-2xl font-bold text-emerald-800 mb-6 flex items-center">
+                    <svg class="w-6 h-6 mr-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                        </path>
+                    </svg>
+                    Riwayat Pendidikan
+                </h2>
+                <div class="overflow-x-auto rounded-lg border border-gray-200">
+                    <!-- Tag Tabel -->
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col"
+                                    class="px-6 py-4 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                    Jenjang</th>
+                                <th scope="col"
+                                    class="px-6 py-4 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                    Institusi</th>
+                                <th scope="col"
+                                    class="px-6 py-4 text-left text-xs font-bold text-gray-500 uppercase tracking-wider">
+                                    Tahun</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr class="hover:bg-emerald-50 transition-colors">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900">S1 Data
+                                    Science</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Cakrawala University</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Sep 2024 - Aug 2028</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50 transition-colors">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900">SMA</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">SMA Negeri 3 Mataram
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2013-2016</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Latar Belakang -->
+            <section
+                class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+                <h2 class="text-2xl font-bold text-emerald-800 mb-6 flex items-center">
+                    <svg class="w-6 h-6 mr-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+                        </path>
+                    </svg>
+                    Latar Belakang
+                </h2>
+                <div class="prose prose-emerald text-gray-600 max-w-none text-lg leading-relaxed">
+                    <p class="mb-4">
+                        Saya adalah seorang <strong>Software Engineer</strong> dengan pengalaman lebih dari 5 tahun,
+                        berspesialisasi dalam <em>Data-Intensive Backend Systems</em>. Saya memiliki keahlian dalam
+                        membangun API yang skalabel, menyederhanakan alur kerja data, dan menerapkan pipeline CI/CD yang
+                        kuat.
+                    </p>
+                    <blockquote
+                        class="border-l-4 border-emerald-500 pl-6 py-4 my-6 bg-emerald-50/50 italic text-emerald-900 rounded-r-lg font-medium shadow-inner">
+                        "Memanfaatkan teknologi dan data science untuk merancang solusi penyimpanan, pemrosesan, dan
+                        analitik yang mutakhir."
+                    </blockquote>
+                    <p>
+                        Melalui <em>Bootcamp Code the Map, Decode the Future</em>, saya mengintegrasikan keahlian
+                        backend dan ketertarikan saya pada <strong>Data Science</strong> untuk membangun purwarupa
+                        WebGIS yang <u>mudah digunakan</u> namun tangguh secara arsitektur.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Informasi Kontak & Form -->
+            <section class="bg-emerald-800 p-8 md:p-10 rounded-2xl shadow-xl text-white relative overflow-hidden">
+                <div
+                    class="absolute top-0 right-0 -mt-4 -mr-4 w-32 h-32 bg-emerald-700 rounded-full opacity-50 blur-2xl">
+                </div>
+                <div
+                    class="absolute bottom-0 left-0 -mb-4 -ml-4 w-40 h-40 bg-emerald-900 rounded-full opacity-50 blur-2xl">
+                </div>
+
+                <h2 class="text-2xl font-bold mb-8 flex items-center text-emerald-50 relative z-10">
+                    <svg class="w-6 h-6 mr-3 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                    Hubungi Saya
+                </h2>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 relative z-10">
+                    <!-- Kontak List -->
+                    <div class="flex flex-col justify-center">
+                        <p class="text-emerald-100 mb-8 text-lg leading-relaxed">Jika Anda memiliki pertanyaan lebih
+                            lanjut mengenai sistem WebGIS ini, jangan ragu untuk menghubungi melalui informasi di bawah
+                            ini.</p>
+                        <!-- Tag List -->
+                        <ul class="space-y-6 text-emerald-50">
+                            <li class="flex items-center group">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-emerald-700/50 flex items-center justify-center mr-4 group-hover:bg-emerald-600 transition-colors">
+                                    <svg class="w-5 h-5 text-emerald-300" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span class="font-medium tracking-wide">titanioyudista98@gmail.com</span>
+                            </li>
+                            <li class="flex items-center group">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-emerald-700/50 flex items-center justify-center mr-4 group-hover:bg-emerald-600 transition-colors">
+                                    <svg class="w-5 h-5 text-emerald-300" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span class="font-medium tracking-wide">+62 851 7428 2998</span>
+                            </li>
+                            <li class="flex items-center group">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-emerald-700/50 flex items-center justify-center mr-4 group-hover:bg-emerald-600 transition-colors">
+                                    <svg class="w-5 h-5 text-emerald-300" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span class="font-medium tracking-wide">linkedin.com/in/titanio</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Form -->
+                    <div class="bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-xl border border-white/20 shadow-2xl">
+                        <!-- Tag Form Input -->
+                        <form action="#" method="POST" class="space-y-5">
+                            <div>
+                                <label for="nama" class="block text-sm font-medium text-emerald-50 mb-1">Nama
+                                    Lengkap</label>
+                                <input type="text" id="nama" name="nama"
+                                    class="mt-1 block w-full rounded-lg bg-emerald-900/50 border border-emerald-600/50 text-white placeholder-emerald-300/50 focus:border-emerald-300 focus:ring focus:ring-emerald-200/30 focus:outline-none px-4 py-2.5 transition-all"
+                                    placeholder="John Doe">
+                            </div>
+
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-emerald-50 mb-1">Alamat
+                                    Email</label>
+                                <input type="email" id="email" name="email"
+                                    class="mt-1 block w-full rounded-lg bg-emerald-900/50 border border-emerald-600/50 text-white placeholder-emerald-300/50 focus:border-emerald-300 focus:ring focus:ring-emerald-200/30 focus:outline-none px-4 py-2.5 transition-all"
+                                    placeholder="john@example.com">
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="tanggal" class="block text-sm font-medium text-emerald-50 mb-1">Tanggal
+                                        Pertemuan</label>
+                                    <input type="date" id="tanggal" name="tanggal"
+                                        class="mt-1 block w-full rounded-lg bg-emerald-900/50 border border-emerald-600/50 text-white focus:border-emerald-300 focus:ring focus:ring-emerald-200/30 focus:outline-none px-4 py-2.5 transition-all [color-scheme:dark]">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-emerald-50 mb-2">Tujuan</label>
+                                    <div class="flex items-center space-x-5 mt-2">
+                                        <label class="inline-flex items-center cursor-pointer">
+                                            <input type="radio" name="tujuan" value="bisnis"
+                                                class="w-4 h-4 text-emerald-400 bg-emerald-900/50 border-emerald-600/50 focus:ring-emerald-400 focus:ring-2">
+                                            <span class="ml-2 text-sm text-emerald-100">Bisnis</span>
+                                        </label>
+                                        <label class="inline-flex items-center cursor-pointer">
+                                            <input type="radio" name="tujuan" value="umum" checked
+                                                class="w-4 h-4 text-emerald-400 bg-emerald-900/50 border-emerald-600/50 focus:ring-emerald-400 focus:ring-2">
+                                            <span class="ml-2 text-sm text-emerald-100">Umum</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="pesan" class="block text-sm font-medium text-emerald-50 mb-1">Pesan</label>
+                                <textarea id="pesan" name="pesan" rows="4"
+                                    class="mt-1 block w-full rounded-lg bg-emerald-900/50 border border-emerald-600/50 text-white placeholder-emerald-300/50 focus:border-emerald-300 focus:ring focus:ring-emerald-200/30 focus:outline-none px-4 py-2.5 transition-all resize-none"
+                                    placeholder="Tulis pesan Anda di sini..."></textarea>
+                            </div>
+
+                            <div class="flex items-start pt-2">
+                                <div class="flex items-center h-5">
+                                    <input type="checkbox" id="newsletter" name="newsletter"
+                                        class="w-4 h-4 rounded bg-emerald-900/50 border-emerald-600/50 text-emerald-400 focus:ring-emerald-400 focus:ring-2">
+                                </div>
+                                <label for="newsletter" class="ml-3 text-sm text-emerald-200 cursor-pointer">
+                                    Berlangganan buletin informasi agrikultur bulanan.
+                                </label>
+                            </div>
+
+                            <div class="pt-4">
+                                <button type="button"
+                                    class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-md text-base font-bold text-emerald-900 bg-emerald-100 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-emerald-900 transition-all transform hover:-translate-y-0.5">
+                                    Kirim Pesan
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-emerald-900 mt-auto border-t border-emerald-800">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex justify-center md:justify-start md:order-2 space-x-6">
+                    <p class="text-emerald-100 text-sm">
+                        Proyek Akhir Bootcamp <u>Code the Map, Decode the Future</u>.
+                    </p>
+                </div>
+                <div class="mt-8 md:mt-0 md:order-1">
+                    <p class="text-center md:text-left text-base text-emerald-200">
+                        &copy; 2026 WebGIS Agrikultur. <br class="md:hidden"> <i>Hak Cipta Dilindungi.</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vanilla JS for Mobile Menu Toggle -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
