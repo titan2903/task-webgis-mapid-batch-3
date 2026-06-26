@@ -323,13 +323,49 @@
         </div>
     </footer>
 
-    <!-- Vanilla JS for Mobile Menu Toggle -->
+    <style>
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+
+    <!-- Vanilla JS for Mobile Menu Toggle & Animations -->
     <script>
+        // Mobile Menu Toggle
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
+        if (btn && menu) {
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            });
+        }
 
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
+        // Scroll Animations
+        document.addEventListener('DOMContentLoaded', () => {
+            // Apply reveal to sections, excluding the first hero section so it shows immediately
+            document.querySelectorAll('main section:not(:first-child)').forEach((sec, index) => {
+                sec.classList.add('reveal');
+            });
+
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+            
+            reveals.forEach(reveal => {
+                observer.observe(reveal);
+            });
         });
     </script>
 </body>

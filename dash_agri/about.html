@@ -303,7 +303,7 @@
                             </div>
 
                             <div class="pt-4">
-                                <button type="button"
+                                <button type="submit"
                                     class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-md text-base font-bold text-emerald-900 bg-emerald-100 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 focus:ring-offset-emerald-900 transition-all transform hover:-translate-y-0.5">
                                     Kirim Pesan
                                 </button>
@@ -334,14 +334,79 @@
         </div>
     </footer>
 
-    <!-- Vanilla JS for Mobile Menu Toggle -->
+    <style>
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+
+    <!-- Vanilla JS for Logic & Animations -->
     <script>
+        // Mobile Menu Toggle
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
+        if (btn && menu) {
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            });
+        }
 
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
+        // Scroll Animations
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('main section').forEach((sec, index) => {
+                sec.classList.add('reveal');
+                sec.style.transitionDelay = `${index * 100}ms`;
+            });
+
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+            
+            reveals.forEach(reveal => {
+                observer.observe(reveal);
+            });
         });
+
+        // Form Submission Logic Improvement
+        const form = document.querySelector('form');
+        if(form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const btnSubmit = this.querySelector('button[type="submit"]');
+                const originalText = btnSubmit.innerHTML;
+                
+                // Loading State
+                btnSubmit.innerHTML = 'Mengirim Pesan...';
+                btnSubmit.classList.add('opacity-75', 'cursor-wait');
+                
+                setTimeout(() => {
+                    // Success State
+                    btnSubmit.innerHTML = '✓ Pesan Terkirim';
+                    btnSubmit.classList.remove('bg-emerald-100', 'text-emerald-900', 'hover:bg-white');
+                    btnSubmit.classList.add('bg-emerald-500', 'text-white');
+                    
+                    setTimeout(() => {
+                        // Reset State
+                        btnSubmit.innerHTML = originalText;
+                        btnSubmit.classList.remove('bg-emerald-500', 'text-white', 'opacity-75', 'cursor-wait');
+                        btnSubmit.classList.add('bg-emerald-100', 'text-emerald-900', 'hover:bg-white');
+                        form.reset();
+                    }, 3000);
+                }, 1500);
+            });
+        }
     </script>
 </body>
 
